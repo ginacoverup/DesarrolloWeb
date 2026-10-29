@@ -1,0 +1,257 @@
+header {
+    background-color:#f8f9fa ;
+
+}
+
+
+.logo{
+    max-width: 150px;
+}
+
+.nav-link{
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+#hero{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#hero h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.btn-danger{
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-weight: 700;
+}
+
+.hero-imagen{
+
+    position: relative;
+
+}
+
+.hero-imagen::after{
+
+    content:"";
+    position:absolute;
+    width:300px;
+    height:500px;
+    background:#ff1d1d;
+    right:-60px;
+    top:-40px;
+    z-index:1;
+
+}
+
+.hero-imagen img{
+    position:relative;
+    z-index:2;
+
+}
+
+#nosotros{
+    padding-top:30px;
+    padding-bottom:80px;
+}
+
+
+.tarjeta-nosotros{
+    border:none;
+    padding:20px;
+    box-shadow:0px 4px 12px rgba(0,0,0,.15);
+    min-height:320px;
+}
+
+
+.titulo-rojo{
+
+    color:#ff1d1d;
+    font-weight:800;
+    margin-bottom:25px;
+}
+
+
+.tarjeta-nosotros p{
+    line-height:1.8;
+    font-size:1.1rem;
+
+}
+
+
+.tarjeta-nosotros:hover{
+    transform:translateY(-5px);
+    transition:.3s;
+
+}
+
+
+
+#beneficios{
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+
+
+.beneficio img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+
+}
+
+
+.beneficio h2{
+    margin-top:20px;
+    font-size:2rem;
+
+}
+
+
+
+
+
+.beneficio{
+    transition:0.3s;
+}
+
+
+.beneficio:hover{
+    transform:translateY(-10px);
+
+}
+
+
+
+
+#footer{
+    background:#ff1d1d;
+    color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+
+
+#footer h4{
+    font-weight:700;
+    margin-bottom:20px;
+
+}
+
+#footer p{
+    margin:0;
+    line-height:1.6;
+
+}
+
+
+.redes{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+}
+
+.redes a{
+    color:white;
+    font-size:35px;
+    transition:.3s;
+
+}
+
+.redes a:hover{
+    color:#000;
+    transform:scale(1.15);
+
+}
+
+
+#productos{
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+
+.titulo-productos{
+    margin-bottom:50px;
+    font-weight:700;
+
+}
+
+
+.producto img{
+    height:350px;
+    object-fit:cover;
+
+}
+
+.producto{
+    border:none;
+    transition:.3s;
+
+}
+
+.producto:hover{
+    transform:translateY(-8px);
+
+}
+
+
+.producto h2{
+    color:#ff1d1d;
+    font-weight:800;
+
+}
+
+
+.active{
+
+    color:#ff1d1d !important;
+
+    font-weight:700;
+
+}
+
+
+
+#contacto{
+
+    padding-top:60px;
+    padding-bottom:80px;
+
+}
+
+.titulo-contacto{
+
+    color:#ff1d1d;
+    font-weight:800;
+    margin-bottom:20px;
+
+}
+
+.subtitulo-contacto{
+
+    font-size:1.1rem;
+    margin-bottom:40px;
+
+}
+
+
+.form-control{
+
+    border-radius:8px;
+
+}
+
+.btn-danger{
+
+    padding:12px 25px;
+
+}
